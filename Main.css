@@ -5,6 +5,7 @@ body, html {
 	position: relative;
     min-height: 100%;
 	background-color: #093162;
+	height: 100%;
 }
 .maincontainer {
 	width: 1000px;
@@ -20,7 +21,7 @@ body, html {
 	left: 0;
 	right: 0;
 	padding-bottom: 1%;
-    min-height: 100%;
+    min-height: 96%;
 	background-color: #FFFFFF;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
@@ -35,7 +36,7 @@ body, html {
 	border: 1px solid black;
 	box-sizing: border-box;
 	text-decoration: none;
-	background-color: #bc3a3a;
+	background-color: #d14747;
 }
 .viruscontainer:hover{
 	background-color: lightblue;
@@ -57,7 +58,7 @@ h1.mainhead{
 a.mainhead{
 	float: right;
 	text-decoration: none;
-	color: #bc3a3a;
+	color: #d14747;
 	font-size: 24pt;
 	font-family: Bitter;
 	font-weight: bold;
@@ -66,7 +67,6 @@ a.mainhead{
 }
 a.mainhead:hover{
 	color: black;
-	cursor: help;
 }
 img.link {
 	width: 100%;
@@ -75,19 +75,62 @@ img.link {
 h3{
 	font-family: Orbitron;
 	color: black;
-
 }
 a{
 	text-decoration: none;
 }
 .viruspic{
-	width: 45%;
-	margin-top: 5%;
+	width: 40%;
+	margin-top: 4%;
 	border: 2px solid black;
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 2%;
 }
-td.dl{
-	border: 1px solid black;
+td.dl, tr.dl, th.dl{
+	margin: 0;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+td.dlicon{
+	margin:0;
+	padding: 0;
+	padding: 6px 6px 0px 5px;
+	border-left: 2px solid black;
 }
 table.dl{
 	border-collapse: collapse;
+    float: right;
+	width: auto;
+	margin-right: 6%;
+	border: 2px solid black;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 22pt;
+	font-family: Orbitron;
+	background-color: #d14747;
+}
+.downloads{
+	width: 54%;
+	float: left;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+img.dl{
+	margin:0;
+	padding:0;
+	display: inline-block;
+	width: 40px;
+}
+td.dlicon:hover{
+	background-color: lightblue;
+}
+a.dl{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-family: Titillium Web;
+	font-size: 14pt;
+	text-indent: 45px;
 }
