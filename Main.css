@@ -95,7 +95,7 @@ td.dl, tr.dl, th.dl{
 td.dlicon{
 	margin:0;
 	padding: 0;
-	padding: 6px 6px 0px 5px;
+	padding: 6px 6px 6px 6px;
 	border-left: 2px solid black;
 }
 table.dl{
@@ -119,7 +119,7 @@ table.dl{
 img.dl{
 	margin:0;
 	padding:0;
-	display: inline-block;
+	display: block;
 	width: 40px;
 }
 td.dlicon:hover{
