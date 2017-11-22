@@ -3,7 +3,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	position: relative;
-    min-height: 100%;
+	min-height: 100%;
 	background-color: #093162;
 	height: 100%;
 }
@@ -13,18 +13,14 @@ body, html {
 	padding-right: 4%;
 	padding-top: 1%;
 	margin: 0 auto;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 	position: absolute;
 	bottom: 1;
- 	top; 0;
 	left: 0;
 	right: 0;
 	padding-bottom: 1%;
-    min-height: 96%;
-	background-color: #FFFFFF;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
+	min-height: 96%;
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px 40px 2px black;
 }
 .viruscontainer {
 	text-align: center;
@@ -33,29 +29,34 @@ body, html {
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 30px;
-	border: 1px solid black;
+	border: 2px solid black;
 	box-sizing: border-box;
 	text-decoration: none;
 	background-color: #d14747;
 }
-.viruscontainer:hover{
-	background-color: lightblue;
-	box-shadow: 4px 4px 20px 2px black;
+.viruscontainer:hover {
+	background-color: #093162;
+	box-shadow: 3px 3px 8px 0px black;
+	color: black;
 }
-div.mainhead{
+.viruscontainer:hover h3{
+	color: white;
+	text-shadow: 2px 2px 1px black;
+}
+div.mainhead {
 	padding-bottom: 1px;
 	font-family: Bitter;
 	border-bottom: 4px solid black;
 	margin-top: 0;
 }
-h1.mainhead{
+h1.mainhead {
 	padding-left: 2%;
 	display: inline-block;
 	font-size: 36pt;
 	margin-bottom: 1%;
 	margin-top: 1%;
 }
-a.mainhead{
+a.mainhead {
 	float: right;
 	text-decoration: none;
 	color: #d14747;
@@ -65,42 +66,47 @@ a.mainhead{
 	padding-top: 2.5%;
 	padding-right: 2%;
 }
-a.mainhead:hover{
+a.mainhead:hover {
 	color: black;
 }
 img.link {
 	width: 100%;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
-h3{
+h3 {
 	font-family: Orbitron;
-	color: black;
+	color: #f2f2f2;
+	text-shadow: 1px 1px 0px black;
 }
-a{
+a {
 	text-decoration: none;
 }
-.viruspic{
+.viruspic {
 	width: 40%;
 	margin-top: 4%;
 	border: 2px solid black;
 	float: left;
 	margin-right: 4%;
-	margin-bottom: 2%;
+	margin-bottom: 0;
+	box-shadow: 2px 2px 4px 1px black
 }
-td.dl, tr.dl, th.dl{
+td.dl, tr.dl, th.dl {
 	margin: 0;
 	padding-right: 30px;
 	padding-left: 10px;
+	background-color: #093162;
+	color: white;
 }
-td.dlicon{
-	margin:0;
+td.dlicon {
+	margin: 0;
 	padding: 0;
 	padding: 6px 6px 6px 6px;
 	border-left: 2px solid black;
+	background-color: #d14747;
 }
-table.dl{
+table.dl {
 	border-collapse: collapse;
-    float: right;
+	float: right;
 	width: auto;
 	margin-right: 6%;
 	border: 2px solid black;
@@ -108,28 +114,29 @@ table.dl{
 	padding-top: 30px;
 	font-size: 22pt;
 	font-family: Orbitron;
-	background-color: #d14747;
 }
-.downloads{
+.downloads {
 	width: 54%;
 	float: left;
 	margin-top: 4%;
+	padding-bottom: 4%;
 	margin-bottom: 2%;
+	border-bottom: 4px solid black;
 }
-img.dl{
-	margin:0;
-	padding:0;
+img.dl {
+	margin: 0;
+	padding: 0;
 	display: block;
 	width: 40px;
 }
-td.dlicon:hover{
+td.dlicon:hover {
 	background-color: lightblue;
 }
-a.dl{
+a.dl {
 	margin: 0;
 	padding: 0;
 }
-p{
+p {
 	font-family: Titillium Web;
 	font-size: 14pt;
 	text-indent: 45px;
