@@ -116,9 +116,10 @@ td.dl, tr.dl, th.dl {
 }
 img.dl {
 	margin: 0;
-	padding: 0;
+	padding: 6px;
 	display: block;
 	width: 40px;
+	border-collapse: collapse;
 }
 table.dl {
 	border-collapse: collapse;
@@ -127,20 +128,19 @@ table.dl {
 	margin-right: 6%;
 	border: 2px solid black;
 	text-align: center;
-	padding-top: 30px;
-	font-size: 22pt;
+	font-size: 20pt;
 	font-family: Orbitron;
 }
 a.dl {
 	margin: 0;
 	padding: 0;
 }
-td.dlicon {
+td.dlicon, tr.dlicon{
 	margin: 0;
 	padding: 0;
-	padding: 6px 6px 6px 6px;
 	border-left: 2px solid black;
 	background-color: #d14747;
+	border-collapse: collapse;
 }
 td.dlicon:hover {
 	background-color: lightblue;
