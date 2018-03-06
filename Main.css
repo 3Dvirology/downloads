@@ -145,6 +145,30 @@ td.dlicon, tr.dlicon{
 td.dlicon:hover {
 	background-color: lightblue;
 }
+div.info{
+	clear:left;
+	display: block;
+	width: 38%;
+	margin-right: 4%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float:left;
+	border: 1px solid black;
+}
+h2.info{
+	text-align: center;
+	text-decoration: underline;
+	font-family: Bitter;
+}
+ul.info{
+	margin-left: 2%;
+	font-size: 12pt;
+	font-family: Bitter;
+}
+h4.info{
+	font-family: Bitter;
+	margin-left: 4%
+}
 .downloads /*Download Links Div*/ {
 	width: 54%;
 	float: left;
@@ -209,3 +233,4 @@ h4.picdesc{
 	text-align: center;
 	margin-top: 10px
 }
+
