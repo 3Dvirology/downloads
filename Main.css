@@ -101,11 +101,13 @@ h3 {
 .viruspic {
 	width: 40%;
 	margin-top: 4%;
-	border: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
 	float: left;
 	margin-right: 4%;
 	margin-bottom: 0;
-	box-shadow: 2px 2px 4px 1px black
+	box-shadow: 2px 2px 4px 1px black;
 }
 td.dl, tr.dl, th.dl {
 	margin: 0;
@@ -153,7 +155,8 @@ div.info{
 	padding-left: 1%;
 	padding-right: 1%;
 	float:left;
-	border: 1px solid black;
+	border: 2px solid black;
+	box-shadow: 2px 2px 4px 1px black;
 }
 h2.info{
 	text-align: center;
