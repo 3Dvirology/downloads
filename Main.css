@@ -1,6 +1,6 @@
 @set "utf-8";
 
-/*Begin Body*/
+/*Global*/
 
 body, html {
 	margin: 0;
@@ -33,8 +33,13 @@ p {
 	font-size: 14pt;
 	text-indent: 45px;
 }
+h3 {
+	font-family: Orbitron;
+	color: black;
+}
 
-/*Header*/
+
+/*Index*/
 
 div.mainhead {
 	padding-bottom: 1px;
@@ -64,8 +69,6 @@ a.mainhead:hover {
 	color: black;
 }
 
-/*Virus Links*/
-
 .viruscontainer {
 	text-align: center;
 	float: left;
@@ -91,12 +94,8 @@ img.link {
 	width: 100%;
 	border-bottom: 2px solid black;
 }
-h3 {
-	font-family: Orbitron;
-	color: black;
-}
 
-/*Virus Pages*/
+/*Indv Virus Pages*/
 
 
 td.dl, tr.dl, th.dl {
