@@ -190,6 +190,15 @@ h2.tutorial{
 	text-shadow: 1px 1px 1px black;
 	margin-top: 10%;
 }
+ol.tutorial{
+	font-family: Titillium Web;
+	font-size: 14pt;
+	list-style-type: upper-alpha;
+}
+ul.tutorial{
+	font-family: Titillium Web;
+	font-size: 14pt;
+}
 
 /*Tutorial Images*/
 #choosing1{
@@ -202,6 +211,14 @@ h2.tutorial{
 	width:100%;
 	border: 2px solid black;
 	cursor: zoom-in;
+}
+.vidembed{
+	width:640px;
+	height: 360px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	clear:both;
+	display: block;
 }
 #fig2{
 	width:50%;
@@ -217,10 +234,14 @@ h2.tutorial{
 	width:70%;
 	margin-left:15%;
 }
+#vid1{
+	width: 100%;
+	float: left;
+}
 #fig5{
 	width: 45%;
 	float: left;
-	margin-left: 4.5%
+	margin-left: 2.5%
 }
 #fig6{
 	width: 45%;
