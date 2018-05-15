@@ -168,6 +168,11 @@ ul.info{
 	font-size: 12pt;
 	font-family: Bitter;
 }
+ul.symp{
+	font-family: Titillium Web;
+	font-size: 14pt;
+	list-style-type: none;
+}
 h4.info{
 	font-family: Bitter;
 	margin-left: 4%
@@ -180,7 +185,20 @@ h4.info{
 	margin-bottom: 2%;
 	border-bottom: 4px solid black;
 }
-
+div.citations{
+	float:left;
+	clear: both;
+	display: inline-block;
+	width: 80%;
+	margin-left: 0%;
+	padding-top: 50px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 11px
+}
+ul.citations{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 12px
+}
 /*Tutorial*/
 h2.tutorial{
 	font-family: Bitter;
