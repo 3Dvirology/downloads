@@ -53,6 +53,8 @@ h1.mainhead {
 	font-size: 36pt;
 	margin-bottom: 1%;
 	margin-top: 10px;
+	max-width: 800px;
+	overflow-x: hidden;
 }
 a.mainhead {
 	float: right;
