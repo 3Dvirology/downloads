@@ -1,6 +1,6 @@
 @set "utf-8";
 
-/*Global*/
+/* Global */
 
 body, html {
 	margin: 0;
@@ -33,13 +33,8 @@ p {
 	font-size: 14pt;
 	text-indent: 45px;
 }
-h3.virusname {
-	font-family: Orbitron;
-	color: black;
-}
 
-
-/*Index*/
+/* Index */
 
 div.mainhead {
 	padding-bottom: 1px;
@@ -55,6 +50,10 @@ h1.mainhead {
 	margin-top: 10px;
 	max-width: 800px;
 	overflow-x: hidden;
+}
+h3.virusname {
+	font-family: Orbitron;
+	color: black;
 }
 a.mainhead {
 	float: right;
@@ -97,7 +96,7 @@ img.link {
 	border-bottom: 2px solid black;
 }
 
-/*Indv Virus Pages*/
+/* Indv Virus Pages */
 
 
 td.dl, tr.dl, th.dl {
@@ -195,11 +194,10 @@ div.citations{
 	margin-left: 0%;
 	padding-top: 50px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 11px
 }
 ul.citations{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 14px
+	font-size: 14px;
 }
 /*Tutorial*/
 h2.tutorial{
@@ -220,7 +218,8 @@ ul.tutorial{
 	font-size: 14pt;
 }
 
-/*Tutorial Images*/
+/* Tutorial Images */
+
 #choosing1{
 	width: 80%;
 	border: 2px solid black;
