@@ -285,25 +285,75 @@ h4.picdesc{
 	text-align: center;
 	margin-top: 10px
 }
+
 /* About Page */
-.biopic{
-	width: 200px;
-	float: right;
-	margin-bottom: 20px;
-	margin-right: 10px;
+
+h2.about{
+	margin-top: 40px;
+	font-size:20pt;
 }
-.name{
+p.about{
+	margin-left: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h3.name{
 	clear:left;
 	font-size: 20px;
 	margin-bottom: 10px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 h4.bio{
 	margin-bottom: 5px;
 	margin-top: 5px;
-	margin-left: 20px
+	margin-left: 50px;
 }
 p.bio{
 	text-indent: 0;
-	margin-left: 0px; 
+	margin-left: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
+p.biotop{
+	text-indent: 0;
+	margin-left: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13pt;
+	font-style: italic;
+}
+a.add_res{
+	display: inline-block;
+	font-size: 14pt;
+	margin-bottom: 10px;
+}
+
+/* Virus Index */
+p.virus_index{
+	text-indent: 0;
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-top: 30px;
+	font-size: 13pt;
+}
+table.virus_index, tr.virus_index, th.virus_index, td.virus_index{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+table.virus_index{
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 3px solid black;
+	margin-bottom: 70px
+}
+th.virus_index{
+	background: #C7DFE7
+}
+td.virus_index, th.virus_index{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
