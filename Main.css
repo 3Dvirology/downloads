@@ -201,6 +201,33 @@ ul.citations{
 	font-size: 14px;
 }
 
+/* DNA Page */
+
+a.attrib{
+	font-family: Bitter;
+	font-size: 14pt;
+	color: #d14747;
+	margin-top: 10px;
+}
+#attrib1{
+	float:left;
+	margin-left: 20px;
+}
+#attrib2{
+	margin-left: 300px;
+	margin-top: 10px;
+	float: left;
+}
+#attrib3{
+	float:right;
+	margin-right: 20px;
+}
+div.note{
+	display: block;
+	float: left;
+	text-indent: 0;	
+}
+
 /*Tutorial*/
 
 h2.tutorial{
@@ -228,34 +255,6 @@ p.tutorial{
 	font-size: 13pt;
 }
 
-/* DNA Page */
-
-a.attrib{
-	font-family: Bitter;
-	font-size: 14pt;
-	color: #d14747;
-	margin-top: 10px;
-}
-#attrib1{
-	float:left;
-	margin-left: 20px;
-}
-#attrib2{
-	margin-left: 300px;
-	margin-top: 10px;
-	float: left;
-}
-#attrib3{
-	float:right;
-	margin-right: 20px;
-}
-div.note{
-	display: block;
-	float: left;
-	text-indent: 0;
-	
-	
-}
 /* Tutorial Images */
 
 #choosing1{
