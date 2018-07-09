@@ -98,7 +98,6 @@ img.link {
 
 /* Indv Virus Pages */
 
-
 td.dl, tr.dl, th.dl {
 	margin: 0;
 	padding-right: 30px;
@@ -156,8 +155,7 @@ div.info{
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
-	float:left;
-	
+	float:left;	
 }
 h2.info{
 	text-align: center;
@@ -202,7 +200,9 @@ ul.citations{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 14px;
 }
+
 /*Tutorial*/
+
 h2.tutorial{
 	font-family: Bitter;
 	font-size: 48pt;
@@ -226,6 +226,35 @@ li.tutorial{
 }
 p.tutorial{
 	font-size: 13pt;
+}
+
+/* DNA Page */
+
+a.attrib{
+	font-family: Bitter;
+	font-size: 14pt;
+	color: #d14747;
+	margin-top: 10px;
+}
+#attrib1{
+	float:left;
+	margin-left: 20px;
+}
+#attrib2{
+	margin-left: 300px;
+	margin-top: 10px;
+	float: left;
+}
+#attrib3{
+	float:right;
+	margin-right: 20px;
+}
+div.note{
+	display: block;
+	float: left;
+	text-indent: 0;
+	
+	
 }
 /* Tutorial Images */
 
@@ -330,6 +359,7 @@ a.add_res{
 }
 
 /* Virus Index */
+
 p.virus_index{
 	text-indent: 0;
 	margin-left: 70px;
