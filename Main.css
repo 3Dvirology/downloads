@@ -46,14 +46,15 @@ h1.mainhead {
 	padding-left: 2%;
 	display: inline-block;
 	font-size: 32pt;
-	margin-bottom: 1%;
+	margin-bottom: 10px;
 	margin-top: 10px;
 	max-width: 800px;
 	overflow-x: hidden;
 }
 h3.virusname {
-	font-family: Orbitron;
+	font-family: Josefin Sans;
 	color: black;
+	font-size: 16pt;
 }
 a.mainhead {
 	float: right;
@@ -80,10 +81,10 @@ a.mainhead:hover {
 	border: 2px solid black;
 	box-sizing: border-box;
 	text-decoration: none;
-	background-color: #D14747;
+	background-color: #baccd6;
 }
 .viruscontainer:hover {
-	background-color: #093162;
+	background-color: #D14747;
 	box-shadow: 3px 3px 8px 0px black;
 	color: black;
 }
@@ -226,6 +227,61 @@ div.note{
 	display: block;
 	float: left;
 	text-indent: 0;	
+}
+table.comb_table, table.indiv_table{
+	float: left;
+	border-collapse: collapse;
+	clear: left;
+	margin: 0 auto;
+}
+table.indiv_table, table.comb_table{
+	margin-top: 30px;
+	width: 900px;
+	margin-left: 50px;
+}
+td.comb_table, td.indiv_table, th.comb_table, th.indiv_table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 4px;
+}
+p.note{
+	margin-top: 40px;
+	text-indent: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+th.comb_table, th.indiv_table{
+	background: lightblue;
+}
+h2.dna{
+	float:left;
+	display: block;
+	clear: right;
+	font-family: Bitter;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+img.dna{
+	float:left;
+	clear: both;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 400px;
+	margin-left: 275px;
+	border: 4px solid black;
+}
+
+li.dna{
+	float:left;
+	clear:both;
+	font-family: Titillium Web;
+	font-size: 14pt;
+	margin-left: 50px;
+}
+h4.dnadesc{
+	text-align: center;
+	clear: both;
+	margin-bottom: 40px;
 }
 
 /*Tutorial*/
