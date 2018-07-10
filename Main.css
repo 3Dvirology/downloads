@@ -33,7 +33,9 @@ p {
 	font-size: 14pt;
 	text-indent: 45px;
 }
-
+td,th{
+	font-family: Titillium Web
+}
 /* Index */
 
 div.mainhead {
@@ -55,6 +57,7 @@ h3.virusname {
 	font-family: Josefin Sans;
 	color: black;
 	font-size: 16pt;
+	margin: 10px;
 }
 a.mainhead {
 	float: right;
@@ -81,7 +84,7 @@ a.mainhead:hover {
 	border: 2px solid black;
 	box-sizing: border-box;
 	text-decoration: none;
-	background-color: #baccd6;
+	background-color: #a8c6ea;
 }
 .viruscontainer:hover {
 	background-color: #D14747;
@@ -297,7 +300,6 @@ h2.tutorial{
 ol.tutorial{
 	font-family: Titillium Web;
 	font-size: 13pt;
-	list-style-type: upper-alpha;
 }
 ul.tutorial{
 	font-family: Titillium Web;
