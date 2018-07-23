@@ -1,5 +1,4 @@
 @set "utf-8";
-
 /* Global */
 
 body, html {
@@ -33,10 +32,10 @@ p {
 	font-size: 14pt;
 	text-indent: 45px;
 }
-td,th{
+td, th {
 	font-family: Titillium Web
 }
-/* Index */
+/* Main Page */
 
 div.mainhead {
 	padding-bottom: 1px;
@@ -73,7 +72,6 @@ a.mainhead {
 a.mainhead:hover {
 	color: black;
 }
-
 .viruscontainer {
 	text-align: center;
 	float: left;
@@ -99,7 +97,6 @@ img.link {
 	width: 100%;
 	border-bottom: 2px solid black;
 }
-
 /* Indv Virus Pages */
 
 td.dl, tr.dl, th.dl {
@@ -130,7 +127,7 @@ a.dl {
 	margin: 0;
 	padding: 0;
 }
-td.dlicon, tr.dlicon{
+td.dlicon, tr.dlicon {
 	margin: 0;
 	padding: 0;
 	border-left: 2px solid black;
@@ -140,8 +137,8 @@ td.dlicon, tr.dlicon{
 td.dlicon:hover {
 	background-color: lightblue;
 }
-div.infomain{
-	float:left;
+div.infomain {
+	float: left;
 	width: 38%;
 	margin-right: 4%;
 	margin-top: 4%;
@@ -153,33 +150,33 @@ div.infomain{
 	border-bottom: 2px solid black;
 	float: left;
 }
-div.info{
-	clear:left;
+div.info {
+	clear: left;
 	display: block;
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
-	float:left;	
+	float: left;
 }
-h2.info{
+h2.info {
 	text-align: center;
 	text-decoration: underline;
 	font-family: Bitter;
 }
-ul.info{
+ul.info {
 	margin-left: 2%;
 	font-size: 12pt;
 	font-family: Bitter;
 }
-ul.symp{
+ul.symp {
 	font-family: Titillium Web;
 	font-size: 14pt;
 	list-style-type: none;
 }
-li.symp{
+li.symp {
 	padding-bottom: 10px;
 }
-h4.info{
+h4.info {
 	font-family: Bitter;
 	margin-left: 4%
 }
@@ -191,8 +188,8 @@ h4.info{
 	margin-bottom: 2%;
 	border-bottom: 4px solid black;
 }
-div.citations{
-	float:left;
+div.citations {
+	float: left;
 	clear: both;
 	display: inline-block;
 	width: 80%;
@@ -200,72 +197,71 @@ div.citations{
 	padding-top: 50px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
-ul.citations{
+ul.citations {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 14px;
 }
-
 /* DNA Page */
 
-a.attrib{
+a.attrib {
 	font-family: Bitter;
 	font-size: 14pt;
 	color: #d14747;
 	margin-top: 10px;
 }
-#attrib1{
-	float:left;
+#attrib1 {
+	float: left;
 	margin-left: 20px;
 }
-#attrib2{
+#attrib2 {
 	margin-left: 300px;
 	margin-top: 10px;
 	float: left;
 }
-#attrib3{
-	float:right;
+#attrib3 {
+	float: right;
 	margin-right: 20px;
 }
-div.note{
+div.note {
 	display: block;
 	float: left;
-	text-indent: 0;	
+	text-indent: 0;
 }
-table.comb_table, table.indiv_table{
+table.comb_table, table.indiv_table {
 	float: left;
 	border-collapse: collapse;
 	clear: left;
 	margin: 0 auto;
 }
-table.indiv_table, table.comb_table{
+table.indiv_table, table.comb_table {
 	margin-top: 30px;
 	width: 900px;
 	margin-left: 50px;
 }
-td.comb_table, td.indiv_table, th.comb_table, th.indiv_table{
+td.comb_table, td.indiv_table, th.comb_table, th.indiv_table {
 	border: 2px solid black;
 	border-collapse: collapse;
 	padding: 4px;
 }
-p.note{
+p.note {
 	margin-top: 40px;
 	text-indent: 0px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
-th.comb_table, th.indiv_table{
+th.comb_table, th.indiv_table {
 	background: lightblue;
 }
-h2.dna{
-	float:left;
+h2.dna {
+	float: left;
 	display: block;
 	clear: right;
 	font-family: Bitter;
 	margin-bottom: 20px;
 	margin-top: 30px;
 }
-img.dna{
-	float:left;
+img.dna {
+	float: left;
 	clear: both;
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -273,23 +269,21 @@ img.dna{
 	margin-left: 275px;
 	border: 4px solid black;
 }
-
-li.dna{
-	float:left;
-	clear:both;
+li.dna {
+	float: left;
+	clear: both;
 	font-family: Titillium Web;
 	font-size: 14pt;
 	margin-left: 50px;
 }
-h4.dnadesc{
+h4.dnadesc {
 	text-align: center;
 	clear: both;
 	margin-bottom: 40px;
 }
-
 /*Tutorial*/
 
-h2.tutorial{
+h2.tutorial {
 	font-family: Bitter;
 	font-size: 48pt;
 	text-align: center;
@@ -297,150 +291,146 @@ h2.tutorial{
 	text-shadow: 1px 1px 1px black;
 	margin-top: 10%;
 }
-ol.tutorial{
+ol.tutorial {
 	font-family: Titillium Web;
 	font-size: 13pt;
 }
-ul.tutorial{
+ul.tutorial {
 	font-family: Titillium Web;
 	font-size: 13pt;
 }
-li.tutorial{
+li.tutorial {
 	padding-bottom: 7px;
 	font-size: 13pt;
 }
-p.tutorial{
+p.tutorial {
 	font-size: 13pt;
 }
-
 /* Tutorial Images */
 
-#choosing1{
+#choosing1 {
 	width: 80%;
 	border: 2px solid black;
 	margin-left: 10%;
 	cursor: zoom-in;
 }
-.tutorialpic{
-	width:100%;
+.tutorialpic {
+	width: 100%;
 	border: 2px solid black;
 	cursor: zoom-in;
 }
-.vidembed{
-	width:640px;
+.vidembed {
+	width: 640px;
 	height: 360px;
 	padding-bottom: 10px;
 	margin: 0 auto;
-	clear:both;
+	clear: both;
 	display: block;
 }
-#fig2{
-	width:50%;
+#fig2 {
+	width: 50%;
 	margin-left: 1.75%;
-	float:left;
+	float: left;
 }
-#fig3{
-	width:46.4%;
+#fig3 {
+	width: 46.4%;
 	margin-left: 0.7%;
-	float:left;
+	float: left;
 }
-#fig4{
-	width:70%;
-	margin-left:15%;
+#fig4 {
+	width: 70%;
+	margin-left: 15%;
 }
-#vid1{
+#vid1 {
 	width: 100%;
 	float: left;
 }
-#fig5{
+#fig5 {
 	width: 45%;
 	float: left;
 	margin-left: 2.5%
 }
-#fig6{
+#fig6 {
 	width: 45%;
 	float: left;
 	clear: right;
 	margin-left: 1%;
 }
-#additional_resources{
+#additional_resources {
 	font-family: Titillium Web;
 	font-size: 14pt;
 }
-h4.picdesc{
+h4.picdesc {
 	text-align: center;
 	margin-top: 10px
 }
-
 /* About Page */
 
-h2.about{
+h2.about {
 	margin-top: 40px;
-	font-size:20pt;
+	font-size: 20pt;
 }
-p.about{
-	margin-left: 30px; 
+p.about {
+	margin-left: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-h3.name{
-	clear:left;
+h3.name {
+	clear: left;
 	font-size: 20px;
 	margin-bottom: 10px;
 	margin-top: 30px;
 	margin-left: 30px;
 }
-h4.bio{
+h4.bio {
 	margin-bottom: 5px;
 	margin-top: 5px;
 	margin-left: 50px;
 }
-p.bio{
+p.bio {
 	text-indent: 0;
-	margin-left: 30px; 
+	margin-left: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-p.biotop{
+p.biotop {
 	text-indent: 0;
-	margin-left: 30px; 
+	margin-left: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 13pt;
 	font-style: italic;
 }
-a.add_res{
+a.add_res {
 	display: inline-block;
 	font-size: 14pt;
 	margin-bottom: 10px;
 }
-
 /* Virus Index */
 
-p.virus_index{
+p.virus_index {
 	text-indent: 0;
 	margin-left: 70px;
 	margin-right: 50px;
 	margin-top: 30px;
 	font-size: 13pt;
 }
-table.virus_index, tr.virus_index, th.virus_index, td.virus_index{
+table.virus_index, tr.virus_index, th.virus_index, td.virus_index {
 	border: 2px solid black;
 	border-collapse: collapse;
 }
-table.virus_index{
+table.virus_index {
 	margin: 0 auto;
 	margin-top: 40px;
 	border: 3px solid black;
 	margin-bottom: 70px
 }
-th.virus_index{
+th.virus_index {
 	background: #C7DFE7
 }
-td.virus_index, th.virus_index{
+td.virus_index, th.virus_index {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
