@@ -82,10 +82,10 @@ a.mainhead:hover {
 	border: 2px solid black;
 	box-sizing: border-box;
 	text-decoration: none;
-	background-color: #A3CCFF;
+	background-color: #AE6EFF;
 }
 .viruscontainer:hover {
-	background-color: #D14747;
+	background-color: #0072FF;
 	box-shadow: 3px 3px 8px 0px black;
 	color: black;
 }
